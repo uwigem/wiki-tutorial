@@ -4,6 +4,7 @@
     "main": "index.js",
     "repository": "https://github.com/uwigem/wiki-tutorial.git",
     "author": "kwokwilliam <wkwok16@uw.edu>",
+    "homepage": "http://students.washington.edu/wkwok16/wiki-tutorial",
     "license": "MIT",
     "scripts": {
         "docz:dev": "docz dev",

@@ -77,6 +77,33 @@
         }
       ]
     },
+    "src/HTMLII.mdx": {
+      "name": "3. HTML with MediaWiki",
+      "route": "/HTMLII",
+      "order": 4,
+      "id": "3b071a90953df29da36cec4d4406c90a",
+      "filepath": "src/HTMLII.mdx",
+      "link": "https://github.com/uwigem/wiki-tutorial\\edit\\master\\src/HTMLII.mdx",
+      "slug": "src-htmlii",
+      "menu": null,
+      "headings": [
+        {
+          "depth": 1,
+          "slug": "html-with-mediawiki",
+          "value": "Html with mediawiki"
+        },
+        {
+          "depth": 2,
+          "slug": "existing-class-and-ids",
+          "value": "Existing class and ids"
+        },
+        {
+          "depth": 2,
+          "slug": "an-example",
+          "value": "An example"
+        }
+      ]
+    },
     "src/Preface.mdx": {
       "name": "Preface",
       "route": "/",

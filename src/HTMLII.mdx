@@ -1,0 +1,50 @@
+---
+name: 3. HTML with MediaWiki
+route: /HTMLII
+order: 4
+---
+
+import {Img} from './Img';
+
+# HTML with MediaWiki
+
+If you read about HTML and got started with it earlier, you'll know there was a large setup around using `<!DOCTYPE html>` with `<head>` and `<body>` and all that. That is not necessary with the iGEM MediaWiki system. You can still make `head` tags to hide `meta` or `script` tags, but in reality, you can immediately just start typing stuff and it'll appear on the page. This is because what iGEM does is it takes whatever content you put in and plugs it into a giant `<div>` tag that they have set aside. 
+
+I think it's still good pracatice to just wrap it in a `<div>` or `<html>` tag. It's just personal preference for me. 
+
+## Existing class and IDs
+
+iGEM Wiki has some default styles and classes that will have their own styling on it. Take note that if you somehow manage to use these IDs or Class names on your HTML tags, it will have styles overridden by iGEM's defaults. A good way to avoid this from happening (other than overriding iGEM default CSS styles) is to just add something you know will not exist. For example, iGEM has the ID `#content` reserved in their default CSS. If you wanted to have a `<div id="content">`, your div would be styled with whatever iGEM has for their CSS for that ID. I would name it `<div id="uw-content">`.
+
+## An example
+
+Starting from now, I'll start making actual example wiki pages, that I'll be building on for the next few chapters to introduce new concepts. In this case, I'll be making http://2018.igem.org/Team:Washington/ExamplePageOne and http://2018.igem.org/Team:Washington/ExamplePageTwo.
+
+For now, I'll be keeping all iGEM defaults, and just put the following on each page:
+
+ExamplePageOne (EP1): 
+```
+<html>
+    <h1 id="uw-header">iGEM Washington Example</h1>
+    <h2 id="uw-subheader">This is the example page one</h2>
+    <p id="uw-content">Content content content content content</p>
+</html>
+```
+
+ExamplePageTwo: 
+```
+<html>
+    <h1 id="uw-header">iGEM Washington Example</h1>
+    <h2 id="uw-subheader">This is the example page two</h2>
+    <p id="uw-content">Different content than the first page</p>
+</html>
+```
+
+EP1 looks like this:
+
+<Img src={require('./imgs/1-1.png')} alt={"example page one part 1"} />
+
+EP2 looks like this:
+
+<Img src={require('./imgs/2-1.png')} alt={"example page two part 1"} />
+
