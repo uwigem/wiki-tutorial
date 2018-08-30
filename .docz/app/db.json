@@ -1,11 +1,12 @@
 {
   "config": {
-    "title": "Wiki Tutorial",
+    "title": "iGEM Wiki Necessities",
     "description": "My awesome app using docz",
     "themeConfig": {},
     "ordering": "descending",
     "version": "1.0.0",
-    "repository": "https://github.com/uwigem/wiki-tutorial"
+    "repository": "https://github.com/uwigem/wiki-tutorial",
+    "base": "/"
   },
   "entries": {
     "src/Test.mdx": {
