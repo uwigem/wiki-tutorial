@@ -1,0 +1,34 @@
+---
+name: 5. CSS with MediaWiki
+route: /CSS
+order: 6
+---
+
+import {Img} from './Img';
+
+# CSS with MediaWiki
+
+## Inline CSS
+
+You can add in CSS inside the HTML as you may have learned. Like this:
+
+```
+<html>
+    <style>
+        #uw-header {
+            font-size: 50;
+            color: red;
+        }
+    </style>
+
+    <h1 id="uw-header">iGEM Washington Example</h1>
+    <h2 id="uw-subheader">This is the example page one</h2>
+    <p id="uw-content">Content content content content content</p>
+</html>
+```
+
+which works! See:
+
+<Img src={require('./imgs/1-2.png')} alt={"example 1-2"} />
+
+It's common practice to keep CSS and HTML like this separated. The reason to isn't entirely justified, because styling goes hand in hand with the HTML. However, it does give your code some arbitrary separation, so it feels more organized. How do you do that?

@@ -1,0 +1,26 @@
+---
+name: 4. MediaWiki Templating
+route: /Template
+order: 5
+---
+
+import {Img} from './Img';
+
+# MediaWiki Templating
+
+We saw on the last section that my code had a reused piece. `<h1 id="uw-header">iGEM Washington Example</h1>`. Now, although this is a very simple piece, just imagine that this reused piece of code was 30 lines long. For example, maybe this piece of code could be a header bar that contains the logic for navigation. You would have to copy paste that onto every single page you go to. 
+
+🤔 If only there was a way to easily reuse HTML data. 
+
+😌 There is! You can use MediaWiki's templating feature.
+
+## Making a template for HTML
+
+**IMPORTANT** note before we start. This **WILL** work for CSS and JavaScript, **BUT**, it will **FAIL** if your CSS or JavaScript has the `&` symbol ANYWHERE in it. There is a way around this that I will teach in the next segment.
+
+A **template** is a page that you can use for many things. These templates can contain HTML or just plaintext code (without `&` symbol, again). It is almost the same as making a blank page from the last section. 
+
+* To get a template page, you use the format `http://[YEAR].igem.org/Template:[TEAM]/[TEMPLATENAME]`
+* To use the template in your actual page, you use {{[TEAM]/[TEMPLATENAME]}}.
+  * Note, this goes outside any tags you have. You cannot insert it in the middle of *any* HTML tag. For example, `<div>{{Washington/Test}}</div>` would do nothing.
+
