@@ -1,7 +1,49 @@
 ---
-name: 2. Creating and Editing Wiki Pages
+name: 2. Getting Started with MediaWiki
 route: /CEWiki
 order: 3
 ---
 
-# Creating and Editing Wiki Pages
+# Getting Started with MediaWiki
+
+iGEM uses a system called MediaWiki. It was a software wiki package originally intended to be used on Wikipedia. It is now in use by a lot of other projects in the Wikimedia Foundation and other wikis. 
+
+Before we can make a wiki, we have to know how to do basic edits to a page. You’d be surprised at how many things require special attention to modify on the wiki.
+
+If you’ve ever made your own website before, you may have had to just upload all the relevant files and immediately have a website that you could use. iGEM’s uses **MediaWiki**, which **requires** you to type in the HTML for every individual page. Controversially, a lot of web programmers dislike this model, because it increases complexity if they want to do complex stuff. However, note that using MediaWiki is a godsend for some teams that don’t have any knowledge of web programming. That is why there will likely be _no change_ to this structure for years to come.
+
+For demonstrations, all pages will be a blank page from [Team:Washington’s iGEM Wiki](http://2018.igem.org/Team:Washington). We will also be using Google Chrome as a web browser.
+
+## Wiki page structure
+
+The iGEM wiki is structured in a very straightforward manner.
+
+`http://[YEAR].igem.org/Team:[TEAM]` will lead you to the main page of the specified team. Take note that there is **NO BACKSLASH** after `[Team]`. If you have a backslash, it will go to a blank uncreated page. Be **very** careful when modifying your pages that you don't put everything on the page with a backslash after it, or nobody will be able to find your page!
+
+There are many special pages that the judges take into consideration for determining what medal you will receive at the Jamboree. These pages can be found [here](http://2018.igem.org/Judging/Pages_for_Awards). Read through it. Some pages aren't tied to awards, some are required for evaluation, and some are tied to special awards. One of these pages can be the `Attributions` page for your team, which follows the link structure `http://[YEAR].igem.org/Team:[TEAM]/Attributions`. 
+
+## Editing existing pages
+
+All the special pages noted in the last section will be an existing page for you to work on. Those special pages are outlined in the iGEM page I linked. It's a large page that goes through everything you need to know, but I will paraphrase the important parts. 
+
+The judged page we will be looking at is the Human Practices page. You can see that when you go to it, there will be a box at the top to signify that the judges will be looking at the page. You have to delete this box.
+
+For all pages, you simply have to follow these steps to modify the page:
+1. Be logged in and make sure you are in your team registry (otherwise you won't be allowed to edit the pages)
+2. Go to the top bar and find `wiki tools`
+3. Hover over that and go to `edit page`
+4. Modify the page as you like (Read below for more tips)
+5. Click `save` and the page will be updated
+
+Note how there is a blue bordered **ALERT** box on this page. If you want to be evalluated for this award, it is **imperitive** that you remove (before a certain judging date) the `div` that houses this alert message. The code you have to remove looks like this:
+
+```
+<div class="column full_size judges-will-not-evaluate">
+<h3>★ ALERT! </h3>
+<p>This page is used by the judges to evaluate your team for the <a href="http://2018.igem.org/Judging/Medals">medal criterion</a> or <a href="http://2018.igem.org/Judging/Awards"> award listed above</a>. </p> <p> Delete this box in order to be evaluated for this medal criterion and/or award. See more information at <a href="http://2018.igem.org/Judging/Pages_for_Awards"> Instructions for Pages for awards</a>.</p>
+</div>
+<div class="clear">&#60/div>
+```
+
+The way this works is that the system will scan through your pages and most likely find the div with the class `judges-will-not-evaluate` and if it exists, it will not evaluate the page.
+

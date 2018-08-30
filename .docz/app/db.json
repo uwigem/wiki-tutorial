@@ -9,6 +9,65 @@
     "base": "/"
   },
   "entries": {
+    "src/HTML.mdx": {
+      "name": "1. HTML, CSS, JavaScript",
+      "route": "/html",
+      "order": 2,
+      "id": "aa31cbd45fd9bcf02a72aa06d9da1565",
+      "filepath": "src/HTML.mdx",
+      "link": "https://github.com/uwigem/wiki-tutorial\\edit\\master\\src/HTML.mdx",
+      "slug": "src-html",
+      "menu": null,
+      "headings": [
+        {
+          "depth": 1,
+          "slug": "html-css-javascript",
+          "value": "Html css javascript"
+        },
+        {
+          "depth": 2,
+          "slug": "html-fundamentals",
+          "value": "Html fundamentals"
+        },
+        {
+          "depth": 2,
+          "slug": "css-fundamentals",
+          "value": "Css fundamentals"
+        },
+        {
+          "depth": 2,
+          "slug": "javascript-fundamentals",
+          "value": "Javascript fundamentals"
+        }
+      ]
+    },
+    "src/CreatingAndEditing.mdx": {
+      "name": "2. Creating and Editing Wiki Pages",
+      "route": "/CEWiki",
+      "order": 3,
+      "id": "eb0c07390552891161622c9f6433c02d",
+      "filepath": "src/CreatingAndEditing.mdx",
+      "link": "https://github.com/uwigem/wiki-tutorial\\edit\\master\\src/CreatingAndEditing.mdx",
+      "slug": "src-creating-and-editing",
+      "menu": null,
+      "headings": [
+        {
+          "depth": 1,
+          "slug": "creating-and-editing-wiki-pages",
+          "value": "Creating and editing wiki pages"
+        },
+        {
+          "depth": 2,
+          "slug": "wiki-page-structure",
+          "value": "Wiki page structure"
+        },
+        {
+          "depth": 2,
+          "slug": "judged-pages",
+          "value": "Judged pages"
+        }
+      ]
+    },
     "src/Preface.mdx": {
       "name": "Preface",
       "route": "/",
@@ -25,17 +84,6 @@
           "value": "A guide to writing an igem wiki"
         }
       ]
-    },
-    "src/HTML.mdx": {
-      "name": "HTML",
-      "route": "/html",
-      "order": 2,
-      "id": "aa31cbd45fd9bcf02a72aa06d9da1565",
-      "filepath": "src/HTML.mdx",
-      "link": "https://github.com/uwigem/wiki-tutorial\\edit\\master\\src/HTML.mdx",
-      "slug": "src-html",
-      "menu": null,
-      "headings": []
     }
   }
 }
