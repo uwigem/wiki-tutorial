@@ -1,0 +1,29 @@
+{
+  "config": {
+    "title": "Wiki Tutorial",
+    "description": "My awesome app using docz",
+    "themeConfig": {},
+    "ordering": "descending",
+    "version": "1.0.0",
+    "repository": "https://github.com/uwigem/wiki-tutorial"
+  },
+  "entries": {
+    "src/Test.mdx": {
+      "name": "Home",
+      "route": "/",
+      "id": "fdc992a056a5819da6dc20ccc6e99ed3",
+      "filepath": "src/Test.mdx",
+      "link": "https://github.com/uwigem/wiki-tutorial\\edit\\master\\src/Test.mdx",
+      "slug": "src-test",
+      "order": 0,
+      "menu": null,
+      "headings": [
+        {
+          "depth": 1,
+          "slug": "hello-world",
+          "value": "Hello world"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+    "name": "wiki-tutorial",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://github.com/uwigem/wiki-tutorial.git",
+    "author": "kwokwilliam <wkwok16@uw.edu>",
+    "license": "MIT",
+    "scripts": {
+        "docz:dev": "docz dev",
+        "docz:build": "docz build"
+    },
+    "devDependencies": {
+        "docz": "^0.10.3"
+    }
+}
