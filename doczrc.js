@@ -1,4 +1,5 @@
 export default {
     base: '/',
-    title: "iGEM Wiki Necessities"
+    title: "iGEM Wiki Necessities",
+    ordering: 'ascending'
 }

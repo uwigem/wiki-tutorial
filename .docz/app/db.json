@@ -3,28 +3,39 @@
     "title": "iGEM Wiki Necessities",
     "description": "My awesome app using docz",
     "themeConfig": {},
-    "ordering": "descending",
+    "ordering": "ascending",
     "version": "1.0.0",
     "repository": "https://github.com/uwigem/wiki-tutorial",
     "base": "/"
   },
   "entries": {
-    "src/Test.mdx": {
-      "name": "Home",
+    "src/Preface.mdx": {
+      "name": "Preface",
       "route": "/",
-      "id": "fdc992a056a5819da6dc20ccc6e99ed3",
-      "filepath": "src/Test.mdx",
-      "link": "https://github.com/uwigem/wiki-tutorial\\edit\\master\\src/Test.mdx",
-      "slug": "src-test",
-      "order": 0,
+      "order": 1,
+      "id": "0908443d9ca8a1849a831a3423b12fd3",
+      "filepath": "src/Preface.mdx",
+      "link": "https://github.com/uwigem/wiki-tutorial\\edit\\master\\src/Preface.mdx",
+      "slug": "src-preface",
       "menu": null,
       "headings": [
         {
           "depth": 1,
-          "slug": "hello-world",
-          "value": "Hello world"
+          "slug": "a-guide-to-writing-an-igem-wiki",
+          "value": "A guide to writing an igem wiki"
         }
       ]
+    },
+    "src/HTML.mdx": {
+      "name": "HTML",
+      "route": "/html",
+      "order": 2,
+      "id": "aa31cbd45fd9bcf02a72aa06d9da1565",
+      "filepath": "src/HTML.mdx",
+      "link": "https://github.com/uwigem/wiki-tutorial\\edit\\master\\src/HTML.mdx",
+      "slug": "src-html",
+      "menu": null,
+      "headings": []
     }
   }
 }
