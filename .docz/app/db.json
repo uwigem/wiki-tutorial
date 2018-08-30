@@ -10,41 +10,9 @@
     "ordering": "ascending",
     "version": "1.0.0",
     "repository": "https://github.com/uwigem/wiki-tutorial",
-    "base": "/"
+    "base": "/wkwok16/"
   },
   "entries": {
-    "src/CreatingAndEditing.mdx": {
-      "name": "2. Getting Started with MediaWiki",
-      "route": "/CEWiki",
-      "order": 3,
-      "id": "eb0c07390552891161622c9f6433c02d",
-      "filepath": "src/CreatingAndEditing.mdx",
-      "link": "https://github.com/uwigem/wiki-tutorial\\edit\\master\\src/CreatingAndEditing.mdx",
-      "slug": "src-creating-and-editing",
-      "menu": null,
-      "headings": [
-        {
-          "depth": 1,
-          "slug": "getting-started-with-mediawiki",
-          "value": "Getting started with mediawiki"
-        },
-        {
-          "depth": 2,
-          "slug": "wiki-page-structure",
-          "value": "Wiki page structure"
-        },
-        {
-          "depth": 2,
-          "slug": "editing-existing-pages",
-          "value": "Editing existing pages"
-        },
-        {
-          "depth": 2,
-          "slug": "creating-a-new-blank-page",
-          "value": "Creating a new blank page"
-        }
-      ]
-    },
     "src/HTML.mdx": {
       "name": "1. HTML, CSS, JavaScript",
       "route": "/html",
@@ -74,6 +42,38 @@
           "depth": 2,
           "slug": "javascript-fundamentals",
           "value": "Javascript fundamentals"
+        }
+      ]
+    },
+    "src/CreatingAndEditing.mdx": {
+      "name": "2. Getting Started with MediaWiki",
+      "route": "/CEWiki",
+      "order": 3,
+      "id": "eb0c07390552891161622c9f6433c02d",
+      "filepath": "src/CreatingAndEditing.mdx",
+      "link": "https://github.com/uwigem/wiki-tutorial\\edit\\master\\src/CreatingAndEditing.mdx",
+      "slug": "src-creating-and-editing",
+      "menu": null,
+      "headings": [
+        {
+          "depth": 1,
+          "slug": "getting-started-with-mediawiki",
+          "value": "Getting started with mediawiki"
+        },
+        {
+          "depth": 2,
+          "slug": "wiki-page-structure",
+          "value": "Wiki page structure"
+        },
+        {
+          "depth": 2,
+          "slug": "editing-existing-pages",
+          "value": "Editing existing pages"
+        },
+        {
+          "depth": 2,
+          "slug": "creating-a-new-blank-page",
+          "value": "Creating a new blank page"
         }
       ]
     },
