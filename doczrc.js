@@ -1,5 +1,10 @@
 export default {
     base: '/',
     title: "iGEM Wiki Necessities",
-    ordering: 'ascending'
+    ordering: 'ascending',
+    themeConfig: {
+        colors: {
+            primary: '#420dab'
+        }
+    }
 }

@@ -4,6 +4,8 @@ route: /CEWiki
 order: 3
 ---
 
+import {Img} from './Img';
+
 # Getting Started with MediaWiki
 
 iGEM uses a system called MediaWiki. It was a software wiki package originally intended to be used on Wikipedia. It is now in use by a lot of other projects in the Wikimedia Foundation and other wikis. 
@@ -26,9 +28,13 @@ There are many special pages that the judges take into consideration for determi
 
 All the special pages noted in the last section will be an existing page for you to work on. Those special pages are outlined in the iGEM page I linked. It's a large page that goes through everything you need to know, but I will paraphrase the important parts. 
 
+<Img src={require('./imgs/existingPage.png')} alt={'Existing page'} />
+
+
 The judged page we will be looking at is the Human Practices page. You can see that when you go to it, there will be a box at the top to signify that the judges will be looking at the page. You have to delete this box.
 
 For all pages, you simply have to follow these steps to modify the page:
+
 1. Be logged in and make sure you are in your team registry (otherwise you won't be allowed to edit the pages)
 2. Go to the top bar and find `wiki tools`
 3. Hover over that and go to `edit page`
@@ -47,3 +53,13 @@ Note how there is a blue bordered **ALERT** box on this page. If you want to be 
 
 The way this works is that the system will scan through your pages and most likely find the div with the class `judges-will-not-evaluate` and if it exists, it will not evaluate the page.
 
+## Creating a new blank page
+
+Creating a new page is very simple. First, type this into the navigation bar: `http://[YEAR].igem.org/Team:[TEAM]/[PAGE_YOU_WANT_TO_MAKE]`. In the next example, we will be creating a new page `NewPageTest`.
+
+1. First we head to http://2018.igem.org/Team:Washington/NewPageTest. We should see something like this:
+
+<Img src={require('./imgs/newpagetest.png')} alt={'New page'} />
+
+2. Go click on `edit this page` or go to `wiki tools` > `edit`
+3. Edit your heart out. HTML inside the edit box will appear as rendered HTML after saving.
