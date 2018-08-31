@@ -46,24 +46,19 @@
       ]
     },
     "src/CSS.mdx": {
-      "name": "5. CSS with MediaWiki",
-      "route": "/CSS",
+      "name": "5. Putting It Mostly Together",
       "order": 6,
       "id": "1670a8e3e26f09117b3ee0b3d6326ee8",
       "filepath": "src/CSS.mdx",
       "link": "https://github.com/uwigem/wiki-tutorial\\edit\\master\\src/CSS.mdx",
       "slug": "src-css",
+      "route": "/src-css",
       "menu": null,
       "headings": [
         {
           "depth": 1,
-          "slug": "css-with-mediawiki",
-          "value": "Css with mediawiki"
-        },
-        {
-          "depth": 2,
-          "slug": "inline-css",
-          "value": "Inline css"
+          "slug": "putting-it-mostly-together",
+          "value": "Putting it mostly together"
         }
       ]
     },
@@ -177,6 +172,11 @@
           "depth": 2,
           "slug": "templating-css-and-javascript",
           "value": "Templating css and javascript"
+        },
+        {
+          "depth": 2,
+          "slug": "another-example",
+          "value": "Another example"
         }
       ]
     }
