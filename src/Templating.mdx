@@ -10,9 +10,13 @@ import {Img} from './Img';
 
 We saw on the last section that my code had a reused piece. `<h1 id="uw-header">iGEM Washington Example</h1>`. Now, although this is a very simple piece, just imagine that this reused piece of code was 30 lines long. For example, maybe this piece of code could be a header bar that contains the logic for navigation. You would have to copy paste that onto every single page you go to. 
 
-🤔 If only there was a way to easily reuse HTML data. 
+Now that's all fine and dandy, but what if you want to change a single thing? You'd have to change a single thing on 20 different pages, if you have it on every page of your wiki!
+
+🤔 If only there was a way to easily reuse HTML data and modify it once so it changes everywhere else.
 
 😌 There is! You can use MediaWiki's templating feature.
+
+**To reiterate the purpose of templating**: You can reuse code without having to copy paste it everywhere, and you can modify it in a single place and it changes for ALL of the pages.
 
 ## Making a template for HTML
 
@@ -24,3 +28,71 @@ A **template** is a page that you can use for many things. These templates can c
 * To use the template in your actual page, you use {{[TEAM]/[TEMPLATENAME]}}.
   * Note, this goes outside any tags you have. You cannot insert it in the middle of *any* HTML tag. For example, `<div>{{Washington/Test}}</div>` would do nothing.
 
+## An example
+
+1. We go to the new template page we want. Let's just go to http://2018.igem.org/Template:Washington/Test
+2. We create and start editing. We want to put in the HTML code for the header we just made. This will output whatever we wanted to the resulting page. It looks messy but that doesn't matter. Only whatever you input on this box will be brought over to the page you call the template on.
+
+```
+<h1 id="uw-header">iGEM Washington Example</h1>
+```
+
+3. Include this on the page we want. We will include this on both EP1 and EP2. 
+
+```
+{{Washington/Test}}
+
+<html>
+    <h2 id="uw-subheader">This is the example page one</h2>
+    <p id="uw-content">Content content content content content</p>
+</html>
+```
+
+4. Now if you look at it, it works! I won't show a picture, but if you've been following along, you'll see it worked for you. If it didn't please reach out and ask for help!
+
+5. You can also include `<style></style>` or `<script></script>` tags in here and template that too, but there is a better way, because the `&` symbol doesn't work correctly at times.
+
+## "Templating" CSS and JavaScript
+
+The `&` symbol not working correctly is a known issue but nobody has ever sought to fix it. This makes using JavaScript and some CSS a lot harder, but it's doable! This is very crucial to have if you want to use APIs like Bootstrap. 
+
+This next portion is how I encourage you to incorporate code from now on. I will call it **the correct way to incorporate code**. I will show an example after listing the steps.
+
+1. Take your template link with your CSS or JavaScript code: `http://[YEAR].igem.org/Template:[TEAM]/[TEMPLATE]`
+2. Add this exact string: `?action=raw&ctype=text/[CSS OR JAVASCRIPT]` where `[CSS OR JAVASCRIPT]` is `css` or `javascript`, depending on what type of code is in the template.
+3. Incorporate it into an actual page with `<script>` or `<style>` tags like so:
+
+```
+<!-- For CSS -->
+<link href="http://[YEAR].igem.org/Template:[TEAM]/[TEMPLATE]?action=raw&ctype=text/css" type="text/css" rel="stylesheet" />
+
+<!-- For JavaScript -->
+<script src="http://[YEAR].igem.org/Template:[TEAM]/[TEMPLATE]?action=raw&ctype=text/javascript" type="text/javascript"></script>
+```
+
+Those two lines of codes will act exactly like incorporating a local JavaScript/CSS file, or using a CDN, like you have learned about in the INFO 343 book.
+
+## Another example
+
+1. On http://2018.igem.org/Template:Washington/Testtest, I put just this:
+
+```
+#uw-header {
+ color: red;
+}
+```
+
+2. On EP1, I have this. Note that the /Test template is what actually has the `#uw-header` `h1` tag!
+```
+{{Washington/Test}}
+
+<html>
+    <link href="http://2018.igem.org/Template:Washington/Testtest?action=raw&ctype=text/css" type="text/css" rel="stylesheet" />
+    <h2 id="uw-subheader">This is the example page one</h2>
+    <p id="uw-content">Content content content content content</p>
+</html>
+```
+
+3. It totally works.
+
+<Img src={require('./imgs/1-3.png')} alt={"Example 1-3"}/>

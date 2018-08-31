@@ -45,8 +45,30 @@
         }
       ]
     },
+    "src/CSS.mdx": {
+      "name": "5. CSS with MediaWiki",
+      "route": "/CSS",
+      "order": 6,
+      "id": "1670a8e3e26f09117b3ee0b3d6326ee8",
+      "filepath": "src/CSS.mdx",
+      "link": "https://github.com/uwigem/wiki-tutorial\\edit\\master\\src/CSS.mdx",
+      "slug": "src-css",
+      "menu": null,
+      "headings": [
+        {
+          "depth": 1,
+          "slug": "css-with-mediawiki",
+          "value": "Css with mediawiki"
+        },
+        {
+          "depth": 2,
+          "slug": "inline-css",
+          "value": "Inline css"
+        }
+      ]
+    },
     "src/HTML.mdx": {
-      "name": "1. HTML, CSS, JavaScript",
+      "name": "1. Code Fundamentals",
       "route": "/html",
       "order": 2,
       "id": "aa31cbd45fd9bcf02a72aa06d9da1565",
@@ -57,8 +79,8 @@
       "headings": [
         {
           "depth": 1,
-          "slug": "html-css-javascript",
-          "value": "Html css javascript"
+          "slug": "html-css-javascript-fundamentals",
+          "value": "Html css javascript fundamentals"
         },
         {
           "depth": 2,
@@ -101,6 +123,11 @@
           "depth": 2,
           "slug": "an-example",
           "value": "An example"
+        },
+        {
+          "depth": 2,
+          "slug": "words-on-this-example",
+          "value": "Words on this example"
         }
       ]
     },
@@ -118,6 +145,38 @@
           "depth": 1,
           "slug": "a-guide-to-writing-an-igem-wiki",
           "value": "A guide to writing an igem wiki"
+        }
+      ]
+    },
+    "src/Templating.mdx": {
+      "name": "4. MediaWiki Templating",
+      "route": "/Template",
+      "order": 5,
+      "id": "5a8d46e26908d98b644d73446b4530fa",
+      "filepath": "src/Templating.mdx",
+      "link": "https://github.com/uwigem/wiki-tutorial\\edit\\master\\src/Templating.mdx",
+      "slug": "src-templating",
+      "menu": null,
+      "headings": [
+        {
+          "depth": 1,
+          "slug": "mediawiki-templating",
+          "value": "Mediawiki templating"
+        },
+        {
+          "depth": 2,
+          "slug": "making-a-template-for-html",
+          "value": "Making a template for html"
+        },
+        {
+          "depth": 2,
+          "slug": "an-example",
+          "value": "An example"
+        },
+        {
+          "depth": 2,
+          "slug": "templating-css-and-javascript",
+          "value": "Templating css and javascript"
         }
       ]
     }
