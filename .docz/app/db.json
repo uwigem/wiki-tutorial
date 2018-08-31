@@ -45,23 +45,6 @@
         }
       ]
     },
-    "src/CSS.mdx": {
-      "name": "5. Putting It Mostly Together",
-      "order": 6,
-      "id": "1670a8e3e26f09117b3ee0b3d6326ee8",
-      "filepath": "src/CSS.mdx",
-      "link": "https://github.com/uwigem/wiki-tutorial\\edit\\master\\src/CSS.mdx",
-      "slug": "src-css",
-      "route": "/src-css",
-      "menu": null,
-      "headings": [
-        {
-          "depth": 1,
-          "slug": "putting-it-mostly-together",
-          "value": "Putting it mostly together"
-        }
-      ]
-    },
     "src/HTML.mdx": {
       "name": "1. Code Fundamentals",
       "route": "/html",
@@ -123,6 +106,23 @@
           "depth": 2,
           "slug": "words-on-this-example",
           "value": "Words on this example"
+        }
+      ]
+    },
+    "src/Override.mdx": {
+      "name": "5. Overriding iGEM CSS",
+      "route": "/Override",
+      "order": 6,
+      "id": "2bd1dd32e1cd89afd5c6e81a8ca8f672",
+      "filepath": "src/Override.mdx",
+      "link": "https://github.com/uwigem/wiki-tutorial\\edit\\master\\src/Override.mdx",
+      "slug": "src-override",
+      "menu": null,
+      "headings": [
+        {
+          "depth": 1,
+          "slug": "overriding-igem-css",
+          "value": "Overriding igem css"
         }
       ]
     },
