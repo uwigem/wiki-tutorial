@@ -10,9 +10,31 @@
     "ordering": "ascending",
     "version": "1.0.0",
     "repository": "https://github.com/uwigem/wiki-tutorial",
-    "base": "/wkwok16/wiki-tutorial"
+    "base": "/uwigem/wiki-tutorial"
   },
   "entries": {
+    "src/Cache.mdx": {
+      "name": "7. Clearing Cache",
+      "route": "/Cache",
+      "order": 8,
+      "id": "ebcd2525e2d2d849bdc2fd261db31c2c",
+      "filepath": "src/Cache.mdx",
+      "link": "https://github.com/uwigem/wiki-tutorial\\edit\\master\\src/Cache.mdx",
+      "slug": "src-cache",
+      "menu": null,
+      "headings": [
+        {
+          "depth": 1,
+          "slug": "clearing-cache",
+          "value": "Clearing cache"
+        },
+        {
+          "depth": 2,
+          "slug": "easy-way-to-clear-the-cache",
+          "value": "Easy way to clear the cache"
+        }
+      ]
+    },
     "src/CreatingAndEditing.mdx": {
       "name": "2. Getting Started with MediaWiki",
       "route": "/CEWiki",
@@ -42,6 +64,45 @@
           "depth": 2,
           "slug": "creating-a-new-blank-page",
           "value": "Creating a new blank page"
+        }
+      ]
+    },
+    "src/CSSFrameworks.mdx": {
+      "name": "6. CSS Frameworks",
+      "route": "/CSSFrameworks",
+      "order": 7,
+      "id": "04ff9dd14ad9941e0906b3a09eb23227",
+      "filepath": "src/CSSFrameworks.mdx",
+      "link": "https://github.com/uwigem/wiki-tutorial\\edit\\master\\src/CSSFrameworks.mdx",
+      "slug": "src-css-frameworks",
+      "menu": null,
+      "headings": [
+        {
+          "depth": 1,
+          "slug": "css-frameworks",
+          "value": "Css frameworks"
+        },
+        {
+          "depth": 2,
+          "slug": "installing-a-css-framework",
+          "value": "Installing a css framework"
+        }
+      ]
+    },
+    "src/Fonts.mdx": {
+      "name": "9. Fonts",
+      "route": "/Fonts",
+      "order": 10,
+      "id": "8f7e342311df10764e443e2f223e593a",
+      "filepath": "src/Fonts.mdx",
+      "link": "https://github.com/uwigem/wiki-tutorial\\edit\\master\\src/Fonts.mdx",
+      "slug": "src-fonts",
+      "menu": null,
+      "headings": [
+        {
+          "depth": 1,
+          "slug": "installing-fonts",
+          "value": "Installing fonts"
         }
       ]
     },
@@ -109,6 +170,38 @@
         }
       ]
     },
+    "src/Imgsize.mdx": {
+      "name": "8. Image Sizes",
+      "route": "/Imgsize",
+      "order": 9,
+      "id": "92267987c4b2447fd95dc3d5097c866a",
+      "filepath": "src/Imgsize.mdx",
+      "link": "https://github.com/uwigem/wiki-tutorial\\edit\\master\\src/Imgsize.mdx",
+      "slug": "src-imgsize",
+      "menu": null,
+      "headings": [
+        {
+          "depth": 1,
+          "slug": "image-sizes",
+          "value": "Image sizes"
+        },
+        {
+          "depth": 2,
+          "slug": "general-practices",
+          "value": "General practices"
+        },
+        {
+          "depth": 2,
+          "slug": "the-procedure",
+          "value": "The procedure"
+        },
+        {
+          "depth": 2,
+          "slug": "uploading-it",
+          "value": "Uploading it"
+        }
+      ]
+    },
     "src/Override.mdx": {
       "name": "5. Overriding iGEM CSS",
       "route": "/Override",
@@ -123,6 +216,11 @@
           "depth": 1,
           "slug": "overriding-igem-css",
           "value": "Overriding igem css"
+        },
+        {
+          "depth": 2,
+          "slug": "using-the-inspector-to-debug-styles",
+          "value": "Using the inspector to debug styles"
         }
       ]
     },
@@ -177,6 +275,28 @@
           "depth": 2,
           "slug": "another-example",
           "value": "Another example"
+        }
+      ]
+    },
+    "src/WAF.mdx": {
+      "name": "10. Special Topics - Web Application Frameworks",
+      "route": "/WAF",
+      "order": 11,
+      "id": "afe5f8a6940fe4654e59fdae2582dfdc",
+      "filepath": "src/WAF.mdx",
+      "link": "https://github.com/uwigem/wiki-tutorial\\edit\\master\\src/WAF.mdx",
+      "slug": "src-waf",
+      "menu": null,
+      "headings": [
+        {
+          "depth": 1,
+          "slug": "special-topics---web-application-frameworks",
+          "value": "Special topics web application frameworks"
+        },
+        {
+          "depth": 2,
+          "slug": "how-to",
+          "value": "How to"
         }
       ]
     }

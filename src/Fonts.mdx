@@ -1,0 +1,22 @@
+---
+name: 9. Fonts
+route: /Fonts
+order: 10
+---
+
+import {Img} from './Img';
+
+# Installing fonts
+
+Fonts are uploaded the same way as uploading Images as described in the last section, but the instead of right clicking an image, you right click the link of the font at the top left right under the logo. You can embed fonts using simple CSS `@font-face` command. 
+
+```
+@font-face {
+    font-family: "____";
+    src: url(http://2018.igem.org/_______/__________.TTF) format("TrueType");
+}
+
+body {
+    font-family: "____";
+}
+```

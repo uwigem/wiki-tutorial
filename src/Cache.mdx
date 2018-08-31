@@ -1,0 +1,25 @@
+---
+name: 7. Clearing Cache
+route: /Cache
+order: 8
+---
+
+import {Img} from './Img';
+
+# Clearing Cache
+
+> "Why did the page stay the same? I updated my CSS and JavaScript but the functionality and looks aren't changing!"
+
+You will want to look into clearing your cache. The cache is a temporary storage for web browsers that allows the web page to be loaded faster. Things like images, CSS, JavaScript, etc. all get stored in the cache so the next time the page is loaded, it will load faster. The browser does this automatically. It dramatically reduces load times. However, it's a pain in the neck for web developers because their updates take a while to register. 
+
+## Easy way to clear the cache
+
+You can immediately clear the cache easily without having to go through your browser's settings by opening the developer console and turning on an option to disable the cache. I believe Firefox and Chrome have this feature. I'm not sure about the rest of the existing browsers. Here are instructions for Google Chrome
+
+1. F12 (or right click > inspect) 
+2. Top right corner (3 dots)
+3. Settings
+4. Scroll down to "network"
+5. Disable cache (while DevTools is open)
+
+Now whenever the console is open, on refresh, the cache will be cleared and you'll have the lastest update of the page!
