@@ -10,7 +10,7 @@
     "ordering": "ascending",
     "version": "1.0.0",
     "repository": "https://github.com/uwigem/wiki-tutorial",
-    "base": "/uwigem/wiki-tutorial"
+    "base": "/wkwok16/wiki-tutorial"
   },
   "entries": {
     "src/Cache.mdx": {
@@ -89,23 +89,6 @@
         }
       ]
     },
-    "src/Fonts.mdx": {
-      "name": "9. Fonts",
-      "route": "/Fonts",
-      "order": 10,
-      "id": "8f7e342311df10764e443e2f223e593a",
-      "filepath": "src/Fonts.mdx",
-      "link": "https://github.com/uwigem/wiki-tutorial\\edit\\master\\src/Fonts.mdx",
-      "slug": "src-fonts",
-      "menu": null,
-      "headings": [
-        {
-          "depth": 1,
-          "slug": "installing-fonts",
-          "value": "Installing fonts"
-        }
-      ]
-    },
     "src/HTML.mdx": {
       "name": "1. Code Fundamentals",
       "route": "/html",
@@ -135,6 +118,23 @@
           "depth": 2,
           "slug": "javascript-fundamentals",
           "value": "Javascript fundamentals"
+        }
+      ]
+    },
+    "src/Fonts.mdx": {
+      "name": "9. Fonts",
+      "route": "/Fonts",
+      "order": 10,
+      "id": "8f7e342311df10764e443e2f223e593a",
+      "filepath": "src/Fonts.mdx",
+      "link": "https://github.com/uwigem/wiki-tutorial\\edit\\master\\src/Fonts.mdx",
+      "slug": "src-fonts",
+      "menu": null,
+      "headings": [
+        {
+          "depth": 1,
+          "slug": "installing-fonts",
+          "value": "Installing fonts"
         }
       ]
     },
@@ -170,6 +170,28 @@
         }
       ]
     },
+    "src/Override.mdx": {
+      "name": "5. Overriding iGEM CSS",
+      "route": "/Override",
+      "order": 6,
+      "id": "2bd1dd32e1cd89afd5c6e81a8ca8f672",
+      "filepath": "src/Override.mdx",
+      "link": "https://github.com/uwigem/wiki-tutorial\\edit\\master\\src/Override.mdx",
+      "slug": "src-override",
+      "menu": null,
+      "headings": [
+        {
+          "depth": 1,
+          "slug": "overriding-igem-css",
+          "value": "Overriding igem css"
+        },
+        {
+          "depth": 2,
+          "slug": "using-the-inspector-to-debug-styles",
+          "value": "Using the inspector to debug styles"
+        }
+      ]
+    },
     "src/Imgsize.mdx": {
       "name": "8. Image Sizes",
       "route": "/Imgsize",
@@ -199,28 +221,6 @@
           "depth": 2,
           "slug": "uploading-it",
           "value": "Uploading it"
-        }
-      ]
-    },
-    "src/Override.mdx": {
-      "name": "5. Overriding iGEM CSS",
-      "route": "/Override",
-      "order": 6,
-      "id": "2bd1dd32e1cd89afd5c6e81a8ca8f672",
-      "filepath": "src/Override.mdx",
-      "link": "https://github.com/uwigem/wiki-tutorial\\edit\\master\\src/Override.mdx",
-      "slug": "src-override",
-      "menu": null,
-      "headings": [
-        {
-          "depth": 1,
-          "slug": "overriding-igem-css",
-          "value": "Overriding igem css"
-        },
-        {
-          "depth": 2,
-          "slug": "using-the-inspector-to-debug-styles",
-          "value": "Using the inspector to debug styles"
         }
       ]
     },

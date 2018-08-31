@@ -1,5 +1,5 @@
 export default {
-    base: '/uwigem/wiki-tutorial',
+    base: '/wkwok16/wiki-tutorial',
     title: "iGEM Wiki Necessities",
     ordering: 'ascending',
     themeConfig: {
